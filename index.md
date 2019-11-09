@@ -12,9 +12,9 @@
   <li>Download --malware-- more cookies
   </ul>
   <p> This site is really not that interactive, so if you want to go to another site, then click off right now using these cool links.
-  <br><a href:"amazon.com">Shopping site</a>
-  <br><a href:"elgoog.com">hcraeS</a>
-  <br><a href:"youtube.com">Video Site</a>
-  <br><a herf:"ask.com">Search Site</a>
+  <br><a href="amazon.com">Shopping site</a>
+  <br><a href="elgoog.com">hcraeS</a>
+  <br><a href="youtube.com">Video Site</a>
+  <br><a herf="ask.com">Search Site</a>
   </p>
   
