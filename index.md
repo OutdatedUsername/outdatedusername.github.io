@@ -15,6 +15,6 @@
   <br><a href="amazon.com">Shopping site</a>
   <br><a href="elgoog.com">hcraeS</a>
   <br><a href="youtube.com">Video Site</a>
-  <br><a herf="ask.com">Search Site</a>
+  <br><a href="ask.com">Search Site</a>
   </p>
   
