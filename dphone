@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<!--Never knew something like this would take more than 150 lines of code-->
+    <head>
+        <meta charset="utf-8">
+        <title>Dphone</title>
+        <style>
+
+            .dumb {
+font-family: 'Noto Sans SC', sans-serif;
+            }
+            #dumb{
+                font-size:22px;
+            }
+            #quotes{
+            border:rgb(181, 58, 181) solid;
+            height:150px;
+            margin-left:2px;
+            padding-left:10px;
+            padding-right:5px;
+            overflow-y:overflow;
+            overflow-x:hidden;
+            font-family:"roboto",Arial;
+            background-color:rgb(219, 136, 219);
+            border-radius:17px;
+            color:rgb(255, 255, 255);
+            }
+            #badidea{
+            height:150px;
+            padding-left:10px;
+            padding-right:5px;
+            overflow-y:overflow;
+            overflow-x:hidden;
+            font-family:"roboto",Arial;
+            background-color:blue;
+            border-radius:17px;
+            color:white;
+            }
+            #wut{
+                font-family:sans-serif;
+                border-radius:10px;
+                background-color:red;
+                padding-left:10px;
+                padding-right:10px;
+            }
+            #bax{
+                width:50%;
+                background-color:rgb(19, 31, 194);
+                font-family:sans-serif;
+                color:white;
+                float:left;
+                height:223px;
+                overflow-y:overflow;
+                overflow-x:hidden;
+            }
+            #bax2{
+                width:50%;
+                float:right;
+                font-family:sans-serif;
+                background-color:rgb(255,0, 0);
+                color:white;
+                height:223px;
+                overflow-y:overflow;
+                overflow-x:hidden;
+            }
+            #bax3{
+                width:50%;
+                background-color:rgb(59, 143, 112);
+                font-family:sans-serif;
+                color:white;
+                float:left;
+                height:193px;
+                overflow-y:overflow;
+                overflow-x:hidden;
+            }
+            #bax4{
+                width:50%;
+                background-color:rgb(60, 74, 143);
+                font-family:sans-serif;
+                color:white;
+                float:right;
+                height:193px;
+                overflow-y:overflow;
+                overflow-x:hidden;
+            }
+            #morequotes{
+            border:rgb(181, 58, 181) solid;
+            height:150px;
+            padding-left:10px;
+            padding-right:5px;
+            overflow-y:overflow;
+            overflow-x:hidden;
+            font-family:"roboto",Arial;
+            background-color:rgb(27, 222, 85);
+            border-radius:10px;
+            color:rgb(255, 255, 255);
+            }
+.nt {
+font-family:sans-serif;
+
+}
+.hey{
+
+}
+#whysmall{
+font-size:3px;
+}
+.smaller{
+font-size:10px;
+}
+.break{
+    margin-top:2px;
+}
+        </style>
+    </head>
+    <body>
+<h1 class="dumb">dPhone<br><span id="dumb">The phone of nasalgia</span></h1>
+<p id="wut">Using the dPhone, it brings back a lot of nastalgia, because it welcomes people who grew up with new technology, a chance to grow with the old technology heres what they have to say about our wonderful thoughts. </p>
+<h2 class="dumb">Quotes</h2>
+<p id="quotes">What is this? why does this even exist, was new technology better?-Straight A Student<br>[dislike]-someone on social media<br>meow-small kitty cat<br>A you a scammer?-local citizen<br>No Solutors-Sign<br>The nicest phone I ever had-Stragiht F Student<br>WHAT IS THIS!!!-meme<br>Who the heck sold me this?!? SHOW YOURSELF-Happy Coustomer<br>The worst gaming experience-SAVAGE GAMER</p>
+<p class="dumb">As you can see everyone is satesfied with thier product, with the dPhone, it could do less than what a modern phone can do.</p>
+<div id="bax">What a normal phone can do
+    <ul>
+        <li>Surf the web
+        <li>Download high res. apps
+        <li>Make high quality videos in full color
+        <li>Makes you want to use it the whole day
+        <li>You can contact family members using face call
+        <li>Texting
+        <li>Great video games
+<li>Great Storage
+<li>works on any wi-fi
+<li>lightweight
+    </ul>
+</div>
+<div id="bax2">
+    What a dPhone could do
+<ul>
+<li>Surfs only on low resolution sites
+<li>Downloads 50 x 50 px photos
+<li>Makes black and white photos and videos in 50 x 50 px
+<li>Makes you want to smash it
+<li>Includes pong, and clicker, that’s it
+<li>8KB of storage
+<li>Only works on Ddialup
+<li>heavy
+</ul>
+</div>
+<p class="nt break">After seeing all of this, hopefully, you would want to buy a nice dPhone, but before we go on to see the epic tech specs, you will have to buy</p>
+<div style="font-family:sans-serif">
+    <ul>
+        <li><a href="#floppy-disk"><span style="font-size:50px;font-weight:bold;color:orange">deeFloppyDisk</span></a></li>
+        <li><a href="#dial-up"><span style="font-weight:bold;font-size:57px;color:yellow">dDialUp</span></a></li>
+    </ul>
+</div>
+<p class="nt hey">We have done tons of reasearch<span id="whysmall">(which took us just to wikipedia)</span> to stimulate a great old phone. On our reasearch we decided to use a floppy disk as storage, we have struggled to find people who sell floppy disks so we are now introducing...</p>
+<h1 class="dumb" style="color:orange;">deeFloppyDisk($100)<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Floppy_disk_2009_G1.jpg/220px-Floppy_disk_2009_G1.jpg"height="97px"><div class="smaller">The new floppy disk, that increases the stress of storing files, with 3x the weight!, 2x bigger!, 3x more packaging, and 10x the price of a normal disk, and even better…<br>IT HAS 100x less storage than a normal floppy disk.</div></h1>
+<p id="badidea"><span class="dumb" style="font-size:33px;color:rgb(181, 235, 5);border-radius:20px;background-color:rgb(189, 70, 189);padding-right:10px;padding-left:5px;"id="floppy-disk">QUOTES FROM COUSTOMERS!!!</span><br>WHO EVEN BUYS THIS JUNK-coustomer<br>Even <b>NORMAL </b>floppy disks are better than this-Straight B Student<br>What this is the phone that I paid a lot of money for and I get this?!?-Coustomer During dPhone Con<br>I really hate the battery life-person who needs phones with long battery life<br>I hate to ask, but where can I get a non-dPhone-non-dPhone lover<br>Why do you have to invent a bad phone-confused person<br>I waited too long to see the worst generation of phones ever-Person who attended the announcement of the dPhone<br>Even worse than the old phones-Straight A student
+<br>This is the exact reason which I did not buy the dPhone-dphone con person who asked too many questions<br>I swear this is overpriced useless stuff-User of useless stuff<br>I struggled too much with the packaging-amazon reviewer<br>It's so big that it does not fit in my phone, are you trying to scam me-dPhone user</p>
+<p class="dumb" style="font-size:15px">If you want to access the internet, then you will just have to buy our simple dDial-up...</p>
+<p class="dumb">dDialup is a service which you can use with your dphone</p>
+<p class="dumb" style="font-size:40px;font-weight:bold;color:yellow;">dDialup($1500)<br><div style="font-family:Roboto, arial;color:red;">The new cool service which could be used to access wi-fi<span style="font-size:3px;">(mainly because it is the only service)</span></div></p>
+<div class="dumb">dDialup, is the new service which could be used to stimulate old dial up technology, using...<div style="font-size:13px;font-weight:bold;color:orange;">Using dDialup,,<br>It is like Dialup, but more stressful.</div></div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Modem-usr-courier-v34-front-online.jpg/220px-Modem-usr-courier-v34-front-online.jpg"style="border-radius:22px;"id="dial-up">
+<div style="font-family:sans-serif">Using dDialup, it is designed to stimulate Dail-up internet access, using umm... <span style="font-size:3px">cheap,</span>old technology, using it you will find out that it is that you get internet faster<div style="font-size:2px">than without any wifi, or um, less slower than dial up, accully it is 100x more slower than dial-up(don't tell anyone)</div><br>Well, with the dDialup, it offers a great way to experience how wifi was in the good old days...<br>Using this cool looking dDialup, it is sure to share that retro look for the cool phone.</div>
+<p style="font-family:sans-serif; font-size:15px">We can compare dDialup, to what normal wifi can do, we could see very amazing stats.</p>
+<div id="bax3">
+Normal Wi-Fi
+    <ul>
+        <li>cool 4g or 5g stuff
+        <li>Looks more modern
+        <li>Has confusing 400mps speed
+        <li>Loads up webpages really fast
+        <li>Decent video streaming rate
+        <li>Can work in the cloud(whatever that means)
+    </ul>
+    
+</div>
+<div id="bax4">dDialup
+<ul>
+<li>You connect a wire to it(to the dPhone)
+<li>Looks more retro
+<li>Well, we perfer not to talk about our speed
+<li>Loads up only 50% of the page in 10 min
+<li>Breaks when streaming videos
+<li>Can work in local storage(only local storage)
+</ul>
+</div>
+<div class="dumb">With these really <span style="border-radius:15px;background-color:yellow">cool</span> perks, we could expect really satesfied coustomers, as the next set of quotes say</div>
+<div id="morequotes">
+    <span style="font-size:29px;color:rgb(179, 46, 194);font-family:arial;font-weight:bold;border-radius:50px;background-color:yellow;padding-left:10px;padding-right:10px">QUOTES(really again)</span>
+    <br>These Quotes make me sick you interview me too much- Straight A Student<br>Now I don't want to buy the dPhone even more...-Cousomer<br>I demand a stop to these crumy products which you need to buy in order to even use the dPhone-Soon to stop using dPhone user.<br>Why more products, the new model accepts a different type of dDialup, and I cannot find it here.-Questioning Costomer<br>It seems like the dPhone corperation is trying to make more money off of us-Suspicious Coustomer<br>I would rather buy a 5GB android tablet instad, because it is much cheaper, and works on the wifi I already have.-Android User<br>The prenium plans cost much more than what internet cost in the "good o'l days"-price comparer<br>I accedently broke my dDialup when trying to stream a video, I spent so much money on it, how can I fix it.-Confused Coustomer<br>Now I have to connect a cord to get wifi, I swear one part of this sounds pretty silly.-Modern Technology user
+</div>
+<p>With all of the eqitment brought, then you can see the tech specs such as...</p>
+<div style="font-family:sans-serif;font-size:28px;font-weight:bold;color:green">Nintendoe Game Cartiage(for storage)</div><p style="font-family:sans-serif;">This is a partnership to the company located in india, we found thier website on kickstarter, they were inspired by Nintendo cartiges, so they made a project where they made a cartage which stores 2x less storage than the normal cartage, this fit the expectations, so we funded them, then put the cartages in our phones, so they come with 5kb of storage.</p>
+<p style="font-size:10px;font-family:arial;">Copyright deeD.co, we provide the modern generation with old technoglogy<span style="font-size:2px">while making the technology more stressfull, and harder to use, while we profit a lot from them, and this is a fake company</span><br> Mianly made with 💛 by <a href="http://www.khanacademy.org/profile/OutdatedUsername">OutdatedUsername</a></p>
+<a href="https://outdatedusername.github.io">🔙Head back home</a>
+    </body>
+</html>
+<!--I would be amazed if you could understand all off this code, it took me more than two days to write it...-->
