@@ -5,23 +5,28 @@
 </head>
 
 <body>
-generate numbers until you get 69,420
+    generate numbers until you get <input type='number' id='one' value="69420">
+    <br> out of <input type='number' id='range' value='100000'>
 <div>total numbers generated: <span id='total'></span></div>
 <div id='lul'>
+    WARNING: MAKING A RANGE TOO BIG MAY CRASH YOUR DEVICE
+    <br>
 <button onclick='generate()'>start generating</button>
 </div>
 <div id='ok'>
 
 </div>
 <script>
+    
 var ok=0;
 var i;
 
 function generate(){
+    if(document.getElementById('one').value<document.getElementById('range').value&&document.getElementById('range').value>0&&document.getElementById('one').value>0&&document.getElementById('range').value<10000000){
     document.getElementById('lul').innerHTML=''
- while (i !== 69420){
+ while (i !== document.getElementById('one').value){
      
-i=Math.round(Math.random()*100000)
+i=Math.round(Math.random()*document.getElementById('range').value)
 var btn = document.createElement("div");
 ok++
 btn.innerHTML=i + ' ('+ok+')'
@@ -31,7 +36,9 @@ btn.innerHTML=i + ' ('+ok+')'
 }
 document.getElementById('total').innerHTML=ok
 
-}
+}else{
+alert('error, check to see if your numbers are correct. Thanks!')
+}}
 </script>
 </body>
 </html>
