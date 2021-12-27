@@ -26,9 +26,11 @@ function generate(){
     document.getElementById('lul').innerHTML=''
         document.getElementById('one').disabled='true'
         document.getElementById('range').disabled='true'
- while (i !== document.getElementById('one').value){
+        var one=Math.round(document.getElementById('one').value)
+        var range=Math.round(document.getElementById('range').value)
+ while (i !== one){
      
-i=Math.round(Math.random()*document.getElementById('range').value)
+i=Math.round(Math.random()*range)
 var btn = document.createElement("div");
 ok++
 btn.innerHTML=i + ' ('+ok+')'
