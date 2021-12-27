@@ -25,8 +25,8 @@ function generate(){
    // if(document.getElementById('one').value<document.getElementById('ranger').value && document.getElementById('ranger').value>0 && document.getElementById('one').value>0 && document.getElementById('ranger').value<10000000){
     
     
-        var one=Math.abs(Math.round(document.getElementById('one').value))
-        var range=Math.abs(Math.round(document.getElementById('ranger').value))
+        var one=Math.abs(Math.floor(document.getElementById('one').value))
+        var range=Math.abs(Math.ceil(document.getElementById('ranger').value))
         if(range>one){
             if (range<10000000) {
             document.getElementById('lul').innerHTML=''
