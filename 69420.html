@@ -24,12 +24,14 @@ var i;
 function generate(){
    // if(document.getElementById('one').value<document.getElementById('ranger').value && document.getElementById('ranger').value>0 && document.getElementById('one').value>0 && document.getElementById('ranger').value<10000000){
     
-    document.getElementById('lul').innerHTML=''
-        document.getElementById('one').disabled='true'
-        document.getElementById('ranger').disabled='true'
+    
         var one=Math.abs(Math.round(document.getElementById('one').value))
         var range=Math.abs(Math.round(document.getElementById('ranger').value))
         if(range>one){
+            if (range<10000000) {
+            document.getElementById('lul').innerHTML=''
+        document.getElementById('one').disabled='true'
+        document.getElementById('ranger').disabled='true'
  while (i !== one){
      
 i=Math.round(Math.random()*range)
@@ -42,7 +44,7 @@ btn.innerHTML=i + ' ('+ok+')'
 }
 document.getElementById('total').innerHTML=ok
 
-}else{
+            }}else{
 alert('error, check to see if your numbers are correct. Thanks!')
 }}
 </script>
