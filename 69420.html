@@ -6,7 +6,7 @@
 
 <body>
     generate numbers until you get <input type='number' id='one' value="69420">
-    <br> out of <input type='number' id='range' value='100000'>
+    <br> out of <input type='number' id='ranger' value='100000'>
 <div>total numbers generated: <span id='total'></span></div>
 <div id='lul'>
     WARNING: MAKING A RANGE TOO BIG MAY CRASH YOUR DEVICE
@@ -22,12 +22,12 @@ var ok=0;
 var i;
 
 function generate(){
-    if(document.getElementById('one').value<document.getElementById('range').value && document.getElementById('range').value>0 && document.getElementById('one').value>0 && document.getElementById('range').value<10000000){
+    if(document.getElementById('one').value<document.getElementById('ranger').value && document.getElementById('ranger').value>0 && document.getElementById('one').value>0 && document.getElementById('ranger').value<10000000){
     document.getElementById('lul').innerHTML=''
         document.getElementById('one').disabled='true'
-        document.getElementById('range').disabled='true'
+        document.getElementById('ranger').disabled='true'
         var one=Math.round(document.getElementById('one').value)
-        var range=Math.round(document.getElementById('range').value)
+        var range=Math.round(document.getElementById('ranger').value)
  while (i !== one){
      
 i=Math.round(Math.random()*range)
