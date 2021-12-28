@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset='utf-8'>
-<title>the 69420 generator</title>
+<title id='mann'>the 69420 generator</title>
 </head>
 
 <body>
@@ -31,6 +31,7 @@ function generate(){
         var range=Math.abs(Math.ceil(document.getElementById('ranger').value))
         if(range>one){
             if (range<10000000) {
+                document.getElementById('mann').innerHTML='the '+one+' generator'
             document.getElementById('lul').innerHTML=''
         document.getElementById('one').disabled='true'
         document.getElementById('ranger').disabled='true'
