@@ -1,7 +1,10 @@
 <!DOCTYPE html>
+
 <html>
+    
 <head>
 <meta charset='utf-8'>
+    
 <title id='mann'>the 69420 generator</title>
 </head>
 
@@ -14,11 +17,14 @@
     with 69420 generator you can automate the rng accosiated with the pointless task of generating 69420
     <br>
 <button onclick='generate()'>start generating</button>
+    
 </div>
+    
 <div id='ok'>
 
 </div>
 <script>
+    
     
 var ok=0;
 var i;
@@ -30,11 +36,14 @@ function generate(){
         var one=Math.abs(Math.floor(document.getElementById('one').value))
         var range=Math.abs(Math.ceil(document.getElementById('ranger').value))
         if(range>one){
+            
             if (range<10000000) {
+                
                 document.getElementById('mann').innerHTML='the '+one+' generator'
             document.getElementById('lul').innerHTML=''
         document.getElementById('one').disabled='true'
         document.getElementById('ranger').disabled='true'
+                
  while (i !== one){
      
 i=Math.round(Math.random()*range)
@@ -48,8 +57,13 @@ btn.innerHTML=i + ' ('+ok+')'
 document.getElementById('total').innerHTML=ok
 
             }}else{
+                
 alert('error, check to see if your numbers are correct. Thanks!')
-}}
+                
+}
+}
 </script>
+    
 </body>
+    
 </html>
